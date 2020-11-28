@@ -347,7 +347,7 @@ nav{
 
 //******************************Hero Home******************************//
 .hero-home{
-  background-image: url("/images/main.jpg");
+  background-image: url("../images/main.jpg");
   @extend .background-style;
   position: relative;
   &::after{
