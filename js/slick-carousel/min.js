@@ -1959,6 +1959,46 @@
       ],
     });
 
+    $(".slider-for-services").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      asNavFor: ".slider-nav-services",
+      autoplaySpeed: 3000,
+      autoplay: true,
+      speed: 700,
+      fade: true,
+      cssEase: "linear",
+    });
+
+    $(".slider-nav-services").slick({
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      asNavFor: ".slider-for-services",
+      dots: false,
+      centerMode: false,
+      focusOnSelect: true,
+      autoplaySpeed: 3000,
+      autoplay: true,
+      speed: 700,
+      responsive: [
+        {
+          breakpoint: 990,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 690,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+
     $("#testimonials").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -1966,6 +2006,40 @@
       fade: true,
       dots: true,
       cssEase: "linear",
+    });
+
+    $(".works--done-carousel").slick({
+      arrows: true,
+      infinite: true,
+      slidesToScroll: 4,
+      slidesToShow: 4,
+      dots: false,
+      autoplaySpeed: 3000,
+      autoplay: true,
+      speed: 500,
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          },
+        },
+        {
+          breakpoint: 790,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     });
   });
 })(jQuery);
