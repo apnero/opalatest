@@ -5,27 +5,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-/* line 19, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 19, ../../sass/bootstrap/_reboot.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 25, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 25, ../../sass/bootstrap/_reboot.scss */
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* line 35, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 35, ../../sass/bootstrap/_reboot.scss */
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/* line 46, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 46, ../../sass/bootstrap/_reboot.scss */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -37,31 +37,31 @@ body {
   background-color: #fff;
 }
 
-/* line 62, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 62, ../../sass/bootstrap/_reboot.scss */
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
 
-/* line 72, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 72, ../../sass/bootstrap/_reboot.scss */
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-/* line 88, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 88, ../../sass/bootstrap/_reboot.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-/* line 97, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 97, ../../sass/bootstrap/_reboot.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 110, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 110, ../../sass/bootstrap/_reboot.scss */
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -71,14 +71,14 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
-/* line 119, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 119, ../../sass/bootstrap/_reboot.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-/* line 125, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 125, ../../sass/bootstrap/_reboot.scss */
 ol,
 ul,
 dl {
@@ -86,7 +86,7 @@ dl {
   margin-bottom: 1rem;
 }
 
-/* line 132, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 132, ../../sass/bootstrap/_reboot.scss */
 ol ol,
 ul ul,
 ol ul,
@@ -94,34 +94,34 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* line 139, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 139, ../../sass/bootstrap/_reboot.scss */
 dt {
   font-weight: 700;
 }
 
-/* line 143, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 143, ../../sass/bootstrap/_reboot.scss */
 dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
-/* line 148, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 148, ../../sass/bootstrap/_reboot.scss */
 blockquote {
   margin: 0 0 1rem;
 }
 
-/* line 152, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 152, ../../sass/bootstrap/_reboot.scss */
 b,
 strong {
   font-weight: bolder;
 }
 
-/* line 157, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 157, ../../sass/bootstrap/_reboot.scss */
 small {
   font-size: 80%;
 }
 
-/* line 166, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 166, ../../sass/bootstrap/_reboot.scss */
 sub,
 sup {
   position: relative;
@@ -130,47 +130,44 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 174, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 174, ../../sass/bootstrap/_reboot.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 175, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 175, ../../sass/bootstrap/_reboot.scss */
 sup {
   top: -.5em;
 }
 
-/* line 182, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 182, ../../sass/bootstrap/_reboot.scss */
 a {
   color: #fecb1c;
   text-decoration: none;
   background-color: transparent;
 }
-
-/* line 13, D:/Documents/opa2/sass/bootstrap/mixins/_hover.scss */
+/* line 13, ../../sass/bootstrap/mixins/_hover.scss */
 a:hover {
   color: #cd9f01;
   text-decoration: underline;
 }
 
-/* line 199, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 199, ../../sass/bootstrap/_reboot.scss */
 a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
 }
-
-/* line 17, D:/Documents/opa2/sass/bootstrap/mixins/_hover.scss */
+/* line 17, ../../sass/bootstrap/mixins/_hover.scss */
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none;
 }
-
-/* line 208, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 208, ../../sass/bootstrap/_reboot.scss */
 a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
-/* line 218, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 218, ../../sass/bootstrap/_reboot.scss */
 pre,
 code,
 kbd,
@@ -179,36 +176,36 @@ samp {
   font-size: 1em;
 }
 
-/* line 226, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 226, ../../sass/bootstrap/_reboot.scss */
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
 }
 
-/* line 240, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 240, ../../sass/bootstrap/_reboot.scss */
 figure {
   margin: 0 0 1rem;
 }
 
-/* line 250, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 250, ../../sass/bootstrap/_reboot.scss */
 img {
   vertical-align: middle;
   border-style: none;
 }
 
-/* line 255, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 255, ../../sass/bootstrap/_reboot.scss */
 svg {
   overflow: hidden;
   vertical-align: middle;
 }
 
-/* line 267, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 267, ../../sass/bootstrap/_reboot.scss */
 table {
   border-collapse: collapse;
 }
 
-/* line 271, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 271, ../../sass/bootstrap/_reboot.scss */
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -217,29 +214,29 @@ caption {
   caption-side: bottom;
 }
 
-/* line 279, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 279, ../../sass/bootstrap/_reboot.scss */
 th {
   text-align: inherit;
 }
 
-/* line 290, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 290, ../../sass/bootstrap/_reboot.scss */
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
 
-/* line 299, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 299, ../../sass/bootstrap/_reboot.scss */
 button {
   border-radius: 0;
 }
 
-/* line 308, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 308, ../../sass/bootstrap/_reboot.scss */
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-/* line 313, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 313, ../../sass/bootstrap/_reboot.scss */
 input,
 button,
 select,
@@ -251,24 +248,24 @@ textarea {
   line-height: inherit;
 }
 
-/* line 324, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 324, ../../sass/bootstrap/_reboot.scss */
 button,
 input {
   overflow: visible;
 }
 
-/* line 329, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 329, ../../sass/bootstrap/_reboot.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 337, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 337, ../../sass/bootstrap/_reboot.scss */
 select {
   word-wrap: normal;
 }
 
-/* line 345, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 345, ../../sass/bootstrap/_reboot.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -276,7 +273,7 @@ button,
   -webkit-appearance: button;
 }
 
-/* line 358, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 358, ../../sass/bootstrap/_reboot.scss */
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -284,7 +281,7 @@ button:not(:disabled),
   cursor: pointer;
 }
 
-/* line 365, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 365, ../../sass/bootstrap/_reboot.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -293,14 +290,14 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
-/* line 373, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 373, ../../sass/bootstrap/_reboot.scss */
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 380, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 380, ../../sass/bootstrap/_reboot.scss */
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -308,13 +305,13 @@ input[type="month"] {
   -webkit-appearance: listbox;
 }
 
-/* line 392, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 392, ../../sass/bootstrap/_reboot.scss */
 textarea {
   overflow: auto;
   resize: vertical;
 }
 
-/* line 398, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 398, ../../sass/bootstrap/_reboot.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -322,7 +319,7 @@ fieldset {
   border: 0;
 }
 
-/* line 413, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 413, ../../sass/bootstrap/_reboot.scss */
 legend {
   display: block;
   width: 100%;
@@ -335,53 +332,51 @@ legend {
   white-space: normal;
 }
 
-/* line 425, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 425, ../../sass/bootstrap/_reboot.scss */
 progress {
   vertical-align: baseline;
 }
 
-/* line 430, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 430, ../../sass/bootstrap/_reboot.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 435, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 435, ../../sass/bootstrap/_reboot.scss */
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
 
-/* line 448, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 448, ../../sass/bootstrap/_reboot.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 457, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 457, ../../sass/bootstrap/_reboot.scss */
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-/* line 466, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 466, ../../sass/bootstrap/_reboot.scss */
 output {
   display: inline-block;
 }
 
-/* line 470, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 470, ../../sass/bootstrap/_reboot.scss */
 summary {
   display: list-item;
   cursor: pointer;
 }
 
-/* line 475, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 475, ../../sass/bootstrap/_reboot.scss */
 template {
   display: none;
 }
 
-/* line 481, D:/Documents/opa2/sass/bootstrap/_reboot.scss */
+/* line 481, ../../sass/bootstrap/_reboot.scss */
 [hidden] {
   display: none !important;
 }
-
-/*# sourceMappingURL=bootstrap-reboot.css.map */
