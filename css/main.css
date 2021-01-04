@@ -24877,7 +24877,7 @@ label {
 /* line 200, ../sass/main.scss */
 header {
   background-color: #000;
-  padding: 1.3rem 0;
+  padding: 1rem 0;
 }
 /* line 203, ../sass/main.scss */
 header nav {
@@ -24895,7 +24895,7 @@ header ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 @media (max-width: 767.98px) {
   /* line 214, ../sass/main.scss */
@@ -24907,7 +24907,7 @@ header ul {
 header ul li {
   list-style: none;
   position: relative;
-  padding: 0 .5rem;
+  padding: 0 1rem;
 }
 /* line 226, ../sass/main.scss */
 header ul li a {
@@ -25690,7 +25690,7 @@ margin: 21px 0 0;
   z-index: 0;
   height: 100%;
   top: 0;
-  background-color: #000;
+  /* background-color: #000; */
   opacity: .6;
   position: absolute;
   border-radius: 3px;
@@ -25848,4 +25848,14 @@ margin: 21px 0 0;
 /* line 787, ../sass/main.scss */
 .services-description .services-description__list .slider-nav-services .slick-slide {
   padding: 3rem 0rem 3rem 2.5rem;
+}
+
+body video {
+  width: 100%;
+}
+/* line 66, ../sass/_theme.scss */
+body iframe {
+  width: 85%;
+  height: 32rem;
+  border: none;
 }

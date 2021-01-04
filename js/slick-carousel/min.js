@@ -1965,7 +1965,7 @@
       arrows: false,
       asNavFor: ".slider-nav-services",
       autoplaySpeed: 3000,
-      autoplay: true,
+      autoplay: false,
       speed: 700,
       fade: true,
       cssEase: "linear",
